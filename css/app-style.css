@@ -1,0 +1,131 @@
+/*!
+ * Start Bootstrap - Shop Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.recently-dropped {
+	border: 4px yellow solid;
+}
+
+.ui-state-highlight {
+	border: 1px #337ab7 solid;
+    background-color: #337ab7;
+}
+
+.stage{
+	padding:5px;
+}	
+
+.stage h4{
+    color: #333;
+}
+
+hr{
+	margin-bottom:0;
+}
+	
+ul.task-items {
+	list-style-type: none;
+	margin-left: 0;
+	min-height: 110px;
+	min-width: 130px;
+	margin: 0;
+	padding:0
+}
+ul.task-items > li {
+	width: 100%;
+	margin: 10px 0;
+}
+.task-item {
+	display: block;
+	border: 1px solid #333;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05)
+}
+
+.task-content{
+	padding: 5px;
+	margin:0;
+	font-size: 0.9em;
+}
+
+.task-item.todo {
+	background-color: #FF5468;
+}
+.task-item.in-progress {
+	background-color: #FABE4D;
+}
+.task-item.impeded {
+	background-color: #f2f2f2;
+}
+.task-item.done {
+	background-color: #4DFA90;
+}
+
+.task-column h4{
+	color: #000;
+}
+
+.task-todo h4  {
+    padding: 10px;    
+    border-bottom: 3px solid #FF5468;
+}
+
+.task-inprogress  h4   {
+    padding: 10px;    
+    border-bottom: 3px solid #FABE4D;
+}
+
+.task-backlog h4 {
+    padding: 10px;    
+    border-bottom: 3px solid #9d9d9d;
+}
+
+.task-done h4 {
+    padding: 10px;    
+    border-bottom: 3px solid #4DFA90;
+}
+
+.task-item p {
+	margin-bottom: 0;
+}
+.task-item p > span {
+	font-weight: bold;
+}
+.task-item p > span:first-child {
+	float: left;
+}
+.task-item p > span:last-child:not(:first-child) {
+	float: right;
+}
+.task-item hr {
+	border-color: #000000;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+.task-progress-status {
+	margin-bottom: 10px;
+	padding-right: 5px
+}
+.story-title {
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#myModal{
+	background: #fff;
+    width: 500px;
+    height: 250px;
+	margin: 20px auto;
+}
+
+footer {
+    margin: 50px 0;
+}
